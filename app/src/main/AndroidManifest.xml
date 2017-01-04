@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".BraodCastTestActivity"
+            android:name="com.example.dragonfly.androidtest.com.example.servicetest.ServiceTestActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -36,6 +36,7 @@
         <!--<action android:name="myaction"/>-->
         <!--</intent-filter>-->
         <!--</receiver>-->
+        <service android:name=".com.example.servicetest.ServieceTest" />
     </application>
 
 </manifest>
