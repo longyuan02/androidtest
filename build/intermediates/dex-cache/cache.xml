@@ -3,6 +3,24 @@
 
     <item
         is-multidex="false"
+        jar="/Users/dragonfly/Documents/workspace/up/androidtest/app/src/main/jniLibs/fastjson-1.2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a5c721e8ea1e18854272879d6ed2770d25feb342">
+        <dex dex="/Users/dragonfly/Documents/workspace/up/androidtest/app/build/intermediates/pre-dexed/debug/fastjson-1.2.7_9916fff6983c12c3bdae5ecb18cf5e4f537f9daa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dragonfly/Documents/workspace/up/androidtest/app/src/main/jniLibs/gson-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="/Users/dragonfly/Documents/workspace/up/androidtest/app/build/intermediates/pre-dexed/debug/gson-2.2.2_7f6d0adb38d39547bf6989446ab13280dcecb02e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/dragonfly/Documents/workspace/androidtest/app/src/main/jniLibs/fastjson-1.2.7.jar"
         jumboMode="false"
         optimize="true"

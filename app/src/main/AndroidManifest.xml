@@ -8,6 +8,7 @@
     <!--存贮权限-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -17,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.dragonfly.androidtest.com.example.servicetest.ServiceTestActivity"
+            android:name=".TestActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TestActivity"
+            android:name="com.example.dragonfly.androidtest.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">>
         </activity>
